@@ -5,8 +5,9 @@
 #include <unordered_map>
 #include <regex>
 #include <string>
-
 using namespace std;
+
+const int TABLE_SIZE = 10;
 
 struct Node{
     string molecule;    

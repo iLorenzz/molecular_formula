@@ -1,7 +1,5 @@
 #include "molecular_formula.hpp"
 
-const int TABLE_SIZE = 10;
-
 int get_molecule_weight(string &formula){
     unordered_map<char, int> weight_table = {
         {'H', 1},
